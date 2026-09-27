@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Subject Title</title>
+</head>
+<body>
+<h1 id="quiztitle">Subject Title</h1>
+<div class="container">
+    <h1 id="question-text"></h1>
+    <div id="options-container"></div>
+    <div id="explanation-box" class="explanation-box"></div>
+    <button id="next-btn" class="next-btn">Next Question</button>
+</div>
+<!--Add questions here-->
+<script>
+    const quizData = [
+        {
+            question: "question here",
+            options: ["a","b","c","d"],
+            // Question that is correct (a=1 b=2 c=3 d=4)
+            correct: 1,
+            explanation: "provide explanation here"
+        }
+    ];
+</script>
+<script src="quizlogic.js"></script>
+</body>
+</html>

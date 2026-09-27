@@ -1,0 +1,131 @@
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    height: 23%;
+    width: 23%;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img:hover {
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+img:active {
+    border: 5px solid rgb(67, 230, 67);
+    border-radius: 5px;
+}
+
+/* Styling for the Quiz */
+
+#quiztitle {
+    text-align: center;
+    color: rgb(230, 135, 67);
+    font-size: auto;
+}
+
+/* Sets background to green/red if question answered correctly/incorrectly 
+If question ansered incorrectly displays the correct answer green and chosen answer red */
+.correct {
+    background-color: rgb(67, 230, 67);
+}
+.wrong {
+    background-color: red;
+}
+
+/* Styling for quiz items */
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    min-width: 70vh;
+    margin: 5%;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: lightblue;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+#question-text {
+    font-size: auto;
+    border: 5px solid black;
+    padding: 10px;
+    border-width: auto;
+}
+#options-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: navy;
+    padding: 30px;
+    border-radius: 15px;
+    align-items: center;
+    width: auto;
+    height: auto;
+    transition: none;
+}
+button {
+    overflow-wrap: break-word;
+    background-color: rgb(180, 250, 180);
+    box-shadow: 5px 5px 0px rgb(85, 185, 85);
+    border: 3px solid white;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    transition: 0.3s ease;
+}
+button:hover {
+    border: 3px dashed black;
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px rgb(85, 185, 85);
+}
+#explanation-box {
+    overflow-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10px;
+    margin-bottom: 5px;
+}
+#next-btn {
+    border-radius: 10px;
+    width: 150px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+/* Styling the end of quiz */
+#endofquiz {
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Times New Roman';
+}
+#endofquiz a {
+    color: blue;
+}
+#endofquiz :visited {
+    color: blue;
+}
+#endofquiz a:hover {
+    color: red;
+}
