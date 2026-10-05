@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HumanGeo</title>
+</head>
+<body>
+<h1 id="quiztitle">AP Human Geography</h1>
+<div class="container">
+    <h2 id="question-text"></h2>
+    <div id="options-container"></div>
+    <div id="explanation-box" class="explanation-box"></div>
+    <button id="next-btn" class="next-btn">Next Question</button>
+</div>
+
+<script>
+    const quizData = [
+        {
+            type: "multiple",
+            question: "How do you find the doubling time of a country?",
+            options: ["NIR/10","NIR/100","NIR/7","NIR/CBR","NIR/70"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            type: "multiple",
+            question: "Which country has the highest life expectancy, thought to rise up to 106 by the year 3200?",
+            options: ["United States","China","Japan","India","Australia"],
+            correct: 2,
+            explanation: "2"
+        },
+        {
+            type: "multiple",
+            question: "What does stage 2 of the demographic transition model represent",
+            options: ["Negative growth(birth rate lower than death rate)","Low growth(high birth and death rates)","Low growth rate(low birth and death rates)","High growth rate(High birth and low death rates)","Stationary population growth"],
+            correct: 3,
+            explanation: "a"
+        },
+        {
+            type: "multiple",
+            question: "List each of the following geographic terms from most inclusive to least inclusive:",
+            options: ["Endemic, Epidemic, Pandemic","Pandemic, Epidemic, Endemic","Epidemic, Pandemic, Endemic","Endemic, Pandemic, Epidemic","Pandemic, Endemic, Epidemic"],
+            correct: 1,
+            explanation: "a"
+        },
+        {
+            type: "multiple",
+            question: "What is the difference between arithmetic, physiological, and agricultural population density???????????????",
+            options: ["Arithmetic: People per unit of land area, Physiological: People per unit of arable land, Agricultural: Farmers per unit of arable land","Arithmetic: Farmers per unit of land area, Physiological: People per unit of arable land, Agricultural: Farmers per unit of land","Arithmetic: People per unit of land, Physiological: Farmers per unit of arable land, Agricultural: People per unit of arable land","Arithmetic: People per unit of arable land, Physiological: Farmers per unit of arable land, Agricultural: Farmers per unit of land","Arithmetic: People per unit of land, Physiological: Farmers per unit of land, Agricultural: People per unit of arable land"],
+            correct: 0,
+            explanation: "a"
+        },
+        {
+            type: "multiple",
+            question: "What does stage 2 of the demographic transition model represent",
+            options: ["Negative growth(birth rate lower than death rate)","Low growth(high birth and death rates)","Low growth rate(low birth and death rates)","High growth rate(High birth and low death rates)","Stationary population growth"],
+            correct: 3,
+            explanation: "a"
+        },
+        {
+
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+        {
+            // Template for multiple choice
+            type: "multiple",
+            question: "x",
+            options: ["a","b","c","d","e"],
+            correct: 4,
+            explanation: "a"
+        },
+    ];
+</script>
+<script src="quizlogic.js"></script>
+</body>
+</html>
