@@ -16,7 +16,7 @@ function shuffleQuizData() {
         [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
     }
 }
-
+// Shuffles quiz questions to make it randomized
 shuffleQuizData();
 
 // Function to load next question
